@@ -7,7 +7,12 @@ The repo currently includes the following samples:
 1. oclVectorAdd 
 
 # Usage
-To get started, clone this git repo and then: 
+To get started, first install the OpenCL ICD loader:
+```bash
+$ apt-get install -y ocl-icd-opencl-dev
+```
+
+Then, clone this git repo and build the samples:
 
 ```bash
 $ cd OpenCL \
